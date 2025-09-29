@@ -67,7 +67,7 @@ const AnimatedNavbar = () => {
 
   return (
     <nav className={`sticky-nav ${isScrolled ? 'scrolled' : ''}`}>
-      <ul className="flex items-center gap-2">
+      <ul className="flex items-center gap-1 sm:gap-2">
         {sections.map((section) => (
           <li key={section.id}>
             <Link 

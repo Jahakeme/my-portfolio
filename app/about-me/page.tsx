@@ -23,10 +23,10 @@ const About = () => {
           {/* Text Content */}
           <div className="w-full md:w-2/3">
             <p className="font-mono text-clamp-base leading-relaxed">
-              Hi! I am Jahakeme, but you can just call me Jucal (both mean the same thing). I&apos;m a full-stack developer
+              Hi! I am Jahakeme, but you can just call me Jucal (both names mean the same thing). I&apos;m a full-stack developer
               with a strong emphasis on backend development. I enjoy building reliable and scalable systems that address real 
               problems and enhace user experience. My background includes experience with modern frameworks such as Express.js,
-              Next.js, and MongoDB, along with practical experience in API design, authentication, and database modeling.
+              Next.js, and MongoDB, along with practical experience in REST API design, authentication, and database modeling.
               <br></br>
               <br></br>
               I believe the best way to learn is by teaching. If I can explain a concept clearly, it indicates that I have a solid

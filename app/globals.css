@@ -481,8 +481,10 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: clamp(25px, 4vw, 50px);
   transition: all 0.3s ease;
-  padding: clamp(0.5rem, 1.5vw, 0.75rem) clamp(1rem, 2vw, 1.5rem);
+  padding: clamp(0.4rem, 1.2vw, 0.75rem) clamp(0.5rem, 1.5vw, 1.5rem);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  max-width: calc(100vw - 2rem);
+  width: max-content;
 }
 
 .sticky-nav.scrolled {
@@ -493,7 +495,7 @@ html {
 
 .nav-link {
   position: relative;
-  padding: clamp(0.5rem, 1vw, 0.75rem) clamp(0.75rem, 1.5vw, 1.25rem);
+  padding: clamp(0.4rem, 1vw, 0.75rem) clamp(0.5rem, 1.2vw, 1.25rem);
   border-radius: 50px;
   transition: all 0.3s ease;
   font-weight: 500;
@@ -540,6 +542,19 @@ html {
 
 .nav-link.active::before {
   opacity: 0;
+}
+
+/* Mobile-specific navbar adjustments */
+@media (max-width: 480px) {
+  .sticky-nav {
+    padding: 0.3rem 0.4rem;
+    border-radius: 20px;
+  }
+  
+  .nav-link {
+    padding: 0.3rem 0.4rem;
+    font-size: 0.8rem;
+  }
 }
 
 /* Dark mode support for navigation */
