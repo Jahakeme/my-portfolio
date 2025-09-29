@@ -25,7 +25,7 @@ const About = () => {
             <p className="font-mono text-clamp-base leading-relaxed">
               Hi! I am Jahakeme, but you can just call me Jucal (both names mean the same thing). I&apos;m a full-stack developer
               with a strong emphasis on backend development. I enjoy building reliable and scalable systems that address real 
-              problems and enhace user experience. My background includes experience with modern frameworks such as Express.js,
+              problems and enhance user experience. My background includes experience with modern frameworks such as Express.js,
               Next.js, and MongoDB, along with practical experience in REST API design, authentication, and database modeling.
               <br></br>
               <br></br>
