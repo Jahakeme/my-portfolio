@@ -11,7 +11,7 @@ const Contact = () => {
                 <div className="flex justify-center items-center gap-8 margin-clamp-lg">
                     {/* Gmail Card - Reduced Size */}
                     <a 
-                        href="mailto:jucalasitok@gmail.com"
+                        href="mailto:asitokjucal@gmail.com"
                         className="group bg-white rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 p-6"
                         style={{
                             boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.05)'
