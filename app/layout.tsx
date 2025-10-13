@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     siteName: "Jucal's Portfolio",
     images: [
       {
-        url: '/opengraph-image.png',
+        url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: 'A picture of Jucal Asitok',
+        alt: "A picture of Jucal Asitok",
       },
     ],
-    locale: 'en', // Generic English without region specifics
-    type: 'website',
+    locale: "en", // Generic English without region specifics
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
