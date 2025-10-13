@@ -34,6 +34,8 @@ export const metadata: Metadata = {
         alt: 'A picture of Jucal Asitok',
       },
     ],
+    locale: 'en', // Generic English without region specifics
+    type: 'website',
   },
   twitter: {
     card: "summary_large_image",
