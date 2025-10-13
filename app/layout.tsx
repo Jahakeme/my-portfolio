@@ -1,17 +1,7 @@
 import type { Metadata } from "next";
-// import { Geist, Geist_Mono } from "next/font/google";
 import { Space_Grotesk, Space_Mono } from "next/font/google";
 import "./globals.css";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -29,7 +19,29 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
   title: "Jucal's Portfolio",
   description: "Portfolio website of Jucal Asitok",
-};
+  keywords: "Jucal Asitok, jucal, Web Developer, Software Engineer, Next.js, React, JavaScript, TypeScript, Frontend Developer, Backend Developer, Fullstack Developer",
+  creator: "Jucal Asitok",
+  openGraph: {
+    title: "Jucal's Portfolio",
+    description: "Portfolio website of Jucal Asitok",
+    url: "https://jucalasitok.vercel.app",
+    siteName: "Jucal's Portfolio",
+    images: [
+      {
+        url: '/opengraph-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'A picture of Jucal Asitok',
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jucal's Portfolio",
+    description: "Portfolio website of Jucal Asitok",
+    images: ["/opengraph-image.png"],
+  }
+}
 
 export default function RootLayout({
   children,
