@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   creator: "Jucal Asitok",
   openGraph: {
     title: "Jucal's Portfolio",
-    description: "Portfolio website of Jucal Asitok",
+    description: "Explore the work of Jucal Asitok, a passionate full-stack developer specializing in Next.js, React, and TypeScript. View projects, technical expertise, and professional experience in web development.",
     url: "https://jucalasitok.vercel.app",
     siteName: "Jucal's Portfolio",
     images: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Jucal's Portfolio",
-    description: "Portfolio website of Jucal Asitok",
+    description: "Explore the work of Jucal Asitok, a passionate full-stack developer specializing in Next.js, React, and TypeScript. View projects, technical expertise, and professional experience in web development.",
     images: ["/opengraph-image.png"],
   }
 }
