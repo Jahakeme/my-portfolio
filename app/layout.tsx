@@ -3,6 +3,8 @@ import { Space_Grotesk, Space_Mono } from "next/font/google";
 import "./globals.css";
 
 
+const siteUrl = "https://jucalasitok.vercel.app";
+
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   display: "swap",
@@ -17,6 +19,7 @@ const spaceMono = Space_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Jucal's Portfolio",
   description: "Portfolio website of Jucal Asitok",
   keywords: "Jucal Asitok, jucal, Web Developer, Software Engineer, Next.js, React, JavaScript, TypeScript, Frontend Developer, Backend Developer, Fullstack Developer",
@@ -24,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Jucal's Portfolio",
     description: "Explore the work of Jucal Asitok, a passionate full-stack developer specializing in Next.js, React, and TypeScript. View projects, technical expertise, and professional experience in web development.",
-    url: "https://jucalasitok.vercel.app",
+    url: siteUrl,
     siteName: "Jucal's Portfolio",
     images: [
       {
